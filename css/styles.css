@@ -1,0 +1,56 @@
+body {
+    background-color: whitesmoke;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center; 
+}
+nav {
+    width: 53%;
+    padding: 1%;
+}
+ul {
+    width: 50%;
+    margin-left: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+footer ul li {
+    background-color: #d9d9d9;
+padding: 15px;
+bottom: 0;
+left: 0;
+width: 900px;
+height: 30px;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: center;
+    padding: 15px;
+}
+#DBlogo1 {
+    height: 130px;
+}
+#linkedin {
+    height: 20px;
+}
+#dorab {
+    height: 300px;
+}
