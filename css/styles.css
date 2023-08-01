@@ -1,45 +1,197 @@
 body {
     background-color: whitesmoke;
     font-size: medium;
-    font-family: 'Franklin Gothic Medium';
+    font-family: 'Montserrat', sans-serif;
 }
-
+.ul {
+    list-style-type: none;
+    margin: 60;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
 .inline-block {
     display: inline-block;
-    vertical-align: top;
+    text-decoration-line:top;
 }
 .logo {
     width: 23%;
     padding: 1%;
     text-align: center; 
 }
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 nav {
     width: 53%;
     padding: 1%;
 }
-ul {
+.ul {
     width: 50%;
     margin-left: auto;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 90;
 }
 .heroimg {
     height: 600px;
     padding: 25px;
 }
 .content {
-    width: 500px;
-    margin: 0 auto;
+    width: auto;
+    margin: auto;
 }
-footer ul li {
-    background-color: #d9d9d9;
+
+
+ul li {
 padding: 15px;
 bottom: 0;
 left: 0;
 width: 900px;
 height: 30px;
 }
+
+.skillCard1 {
+    display: flex;
+    background-color: #23A455;
+    height: auto;
+    width: auto;   
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+}
+.flex_item {
+  padding:10px;
+  margin: 10px;
+  background-color: #23A455;
+  color: white;
+}
+.flex {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+}
+#column {
+  background-color: #23A455;
+  flex-direction: column;
+}
+#row {
+  background-color: #23A455;
+  flex-direction: row;
+}
+.skillCard2 {
+    display: flex;
+    background-color: #23A455;
+    height: auto;
+    width: auto;
+    padding: 15px;
+   
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.skillCard3 {
+    display: flex;
+    background-color: #23A455;
+    height: auto;
+    width: auto;
+    padding: 15px;
+  
+    border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  
+  #mySkills-container {
+ 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 5% 5% 5% 5%;
+  }
+  
+  #mySkills-container > h1 {
+   
+    text-align: center;
+    width: 98%;
+    font-size: xx-large;
+    letter-spacing: .10em;
+    text-transform: uppercase;
+    padding: 0 0 3% 0;
+  }
+  
+  #mySkills-container > div {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 31%;
+    min-height: 300px;
+  }
+  
+  #mySkills-container img { 
+    width: 200px;
+    align-self: center;
+    padding: 0 0 6% 0;
+  }
+  
+  #mySkills-container p {
+    padding: 3% 5% 0 5%;
+  }
+  
+  
+  @media only screen and (max-width: 640px) {
+    #mySkills-container {
+      flex-direction: row;
+      justify-content: flex-start;
+      padding: 8% 0% 5% 0%;
+    }
+    #mySkills-container > h1 {
+      padding: 0% 0% 8% 0%;
+    }
+    
+    #mySkills-container > div {
+      max-width: 100%;
+      padding: 5% 5% 5% 5%;
+  
+    }
+    
+    #mySkills-container img {
+      padding: 0% 0% 3% 0%;
+    }
+    
+    #mySkills-container p {
+      padding: 2% 7% 10% 8%;
+    }
+  }
 footer ul {
     display: inline-block;
     vertical-align: center;
@@ -52,5 +204,38 @@ footer ul {
     height: 20px;
 }
 #dorab {
+    height: 300px;
+}
+#persona {
+    height: 130px;
+}
+#LoFiSerenityNow {
+    height: 130px;
+}
+#Ti2TShome {
+    height: 130px;
+}
+#phoneimage1 {
+    height: 300px;
+}
+#phoneimage2 {
+    height: 305px;
+}
+#phoneimage3 {
+    height: 290px;
+}
+#phoneimage4 {
+    height: 300px;
+}
+#phoneimage5 {
+    height: 300px;
+}
+#phoneimage6 {
+    height: 300px;
+}
+#phoneimage7 {
+    height: 300px;
+}
+#phoneimage8 {
     height: 300px;
 }
