@@ -21,6 +21,8 @@ body {
     padding: 1%;
     text-align: center; 
 }
+
+
 .button {
   background-color: #4CAF50; 
   border: none;
@@ -207,13 +209,13 @@ footer ul {
     height: 300px;
 }
 #persona {
-    height: 130px;
+    height: 70px;
 }
 #LoFiSerenityNow {
-    height: 130px;
+    height: 70px;
 }
 #Ti2TShome {
-    height: 130px;
+    height: 70px;
 }
 #phoneimage1 {
     height: 300px;
